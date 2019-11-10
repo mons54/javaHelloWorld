@@ -11,5 +11,11 @@ public class HelloWorld {
 		
 		System.out.print("Hello World !");
 		System.out.println("\nSaut de ligne");
+		
+		double nb1 = 800_000.0d;
+		double nb2 = 3.0d;
+		double nb3;
+		nb3 = nb1 / nb2;
+		System.out.println(nb3);
 	}
 }
