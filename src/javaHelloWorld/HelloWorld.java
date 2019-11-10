@@ -8,5 +8,8 @@ public class HelloWorld {
 		  Un autre commentaire
 		  sur plusiers ligne
 		 */
+		
+		System.out.print("Hello World !");
+		System.out.println("\nSaut de ligne");
 	}
 }
