@@ -1,4 +1,5 @@
 package javaHelloWorld;
+import java.util.Scanner;
 
 public class HelloWorld {
 	public static void main(String[] args) {
@@ -17,5 +18,10 @@ public class HelloWorld {
 		double nb3;
 		nb3 = nb1 / nb2;
 		System.out.println(nb3);
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Veuillez saisir un mot :");
+		String str = sc.nextLine();
+		System.out.println("Vous avez saisi : " + str);
 	}
 }
